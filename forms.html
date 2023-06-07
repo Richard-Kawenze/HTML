@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <body style="background-color: blue;">
+        <h2>
+            Forms
+        </h2>
+        <form>
+            <fieldset>
+                <legend>Your name</legend>
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname"name="fname" value="John"><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname"name="lname" value="Doe">
+            <br>
+            <input type="submit" value="Submit">
+             </fieldset>
+        </form target="_blank">
+       
+        <p>This is the form for radio buttons</p>
+        <p>Choose your favourite web language</p>
+        
+        <form>
+            <input type="radio" id="html" name="fav_language"value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language"value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language"value="Javascript"
+            <label for="javascript"> Javascript</label>
+            <br><input type="submit" value="Submit">
+        </form>
+        <p>In the following, the form uses checkboxes</p>
+        <form>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1">I have a Bike</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2">I have a Car</label><br>
+            <input type="submit" value="Submit">
+        </form>
+        <p>The submit button is used for submitting data to a form handler. 
+            A form handler is a file on the server for processing input data.
+        </p>
+        <p>The select element is used for dropdown lists as shown below </p>
+        <form>
+            <label for="cars">Choose a car:</label>
+            <select id="cars" name="cars">
+                <option value="volvo">Volvo</option>
+                <option value="subaru">Subaru</option>
+                <option value="hotrod" selected>Hotrod</option>
+                <option value="audi">Audi</option>
+            </select>
+            <input type="submit"value="Submit"
+        </form>
+        <p>Use the textarea element to define multiple line input field as shown below</p>
+        <textarea name="message" rows="10" cols="30">My name is Anonymous</textarea>
+        <p>You can also create a clickable button as shown</p>
+        <button type="button" onclick="alert('Hello There')">Click Here</button>
+        <p>You can use the datalist to enable the user to both choose from a droplist
+             or to type the choice as shown
+        </p>
+        <form>
+            <input list="Fastest">
+            <datalist id="Fastest">
+                <option value="Hotrod"></option>
+                <option value="Portia"></option>
+            </datalist>
+        </form>
+
+    </body>
+</html>

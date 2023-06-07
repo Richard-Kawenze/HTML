@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>
+            This is the use of Javascript to change the text
+        </h2>
+        <p> 
+            In this example, The sentence "Hello World", is written into an 
+            html element with the id="demo";
+            This is done by the use of document.getElementById().
+        </p>
+        <p id="demo"></p>
+        
+        <p>Javascript can change the style of an html element</p>
+        <script>
+            document.getElementById("demo").innerHTML ="Hello World"
+            function myfunction()
+            {
+                document.getElementById("demo").style.fontSize="25px";
+                document.getElementById("demo").style.color="red";
+                document.getElementById("demo").style.backgroundColor="Yellow";
+            }
+        </script>
+        <noscript>Sorry, your browser does not support javascript</noscript>
+        <script>
+            <button type="button"onclick="myfunction()"> Click here!</button>
+        </script>
+    </body>
+</html>

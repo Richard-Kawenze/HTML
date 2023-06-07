@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            CSS template
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1">
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body
+            {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+            }
+            header
+            {
+                background-color: blueviolet;
+                padding:30px;
+                text-align: center;
+                font-size: 35px;
+                color: antiquewhite;
+            }
+            nav
+            {
+                float:left;
+                width:30%;
+                height: 300px;
+                background:#ccc;
+                padding:0;
+            }
+            nav ul
+            {
+                list-style-type: none;
+                padding:0;
+            }
+            article
+            {
+                float:left;
+                padding:20px;
+                width:70%;
+                background-color: blue;
+                height:300px;
+            }
+            section::after
+            {
+                content:"";
+                display: table;
+                clear:both;
+
+            }
+            footer
+            {
+                background-color: aqua;
+                padding: 10px;
+                text-align:center;
+                color:white;
+            }
+            @media(max-width:600px)
+            {
+                nav,article
+                {
+                    width:100%;
+                    height:auto;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h2>
+            CSS layout float
+        </h2>
+        <p>
+            We have created a header, two columns/boxes and a footer. On 
+            the smaller screens, the columns will stack on each other. <br>
+            Resize the browser windows and see the resize effect.
+        </p>
+        <header>
+            <h2>Cities</h2>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#">London</a></li>
+                    <li><a href="#">Paris</a></li>
+                    <li><a href="#">Tokyo</a></li>
+                </ul>
+            </nav>
+            <article>
+                <h1>London</h1>
+                <p>London is the capital city of England. It is the most populous city in the United Kindom<br>
+                It has a metropolitan of about 13 million inhabitants. Standing on the River Thames, London has been
+             a major settlement for two millenia, its history going back to the founding by the Romans. </p>
+            </article>
+        </section>
+        <footer>
+            <p>This is the footer.</p>
+        </footer>
+    </body>
+</html>

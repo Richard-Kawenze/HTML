@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1{
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-shadow: 1px 1px 2px black, 0 0 25px blue,0 0 5px darkblue;
+            }
+            #para1
+            {
+                text-align: center;
+                color:red;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            .center
+            {
+                text-align: center;
+                color:blueviolet;
+                border-left-width: 5px;
+            }
+            p.large
+            {
+                text-transform: uppercase;
+                text-decoration: wavy;
+                unicode-bidi: bidi-override;
+
+            }
+            *{
+                color:blue
+            }
+            body
+            {
+                background-color: rgb(238, 193, 240);
+                opacity:0.8;background-repeat: repeat-x;
+                color:solid black;
+
+
+            
+            }
+            div
+            {
+                background-color: gold;
+                width:300px;
+                border:5px solid blue;
+                outline:blueviolet solid 10px;
+                outline-style: groove;
+                outline-offset: 4px;
+                padding:50px;
+                margin:20px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+           align-self: link;{
+            color:red;
+           }
+           a:visited
+           {
+            color:aqua;
+           }
+           a:hover;
+           {
+            color: green;
+
+           }
+           a:active
+           {
+            color:blueviolet
+           }
+        </style>
+    </head>
+    <body>
+        <h1 class="center">CSS formatting</h1>
+        <p id="para1">I have been formated</p>
+        <p>I have not been formated</p>
+        <p class="large center">Here i come with a bang</p>
+        <div>
+            This is the content of the textbox. The textbox has 50px padding, 20px 
+             mairgin and a 15px border. This is efficiently achieved through the use of the css 
+              box properties. 
+        </div>
+        <br>
+        <div>
+            Here is another example of how the above formatting makes development easier 
+            since no code repetition.
+        </div>
+        <p class="large">I am oveeridden</p>
+        <p><s>I am crossed</s></p>
+        <p>With css, one can style links differently</p>
+        <p><a href="www.lichess.org" title="Play chess for free online" target="_blank" >This is the link</a></p>
+    </body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        table,th,td{border:1px solid black;
+            border-collapse: collapse;
+            border-style: dashed;
+            border-color: blue;
+        }
+        th{
+            text-align: left;color: blueviolet;
+        }
+        td{
+            color: brown;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        th,td{
+            padding: 15px;
+        }
+        td:nth-child(even)
+        {
+            background-color: aquamarine;
+        }
+        td:nth-child(odd)
+        {
+            background-color: chartreuse;
+        }
+    </style>
+
+    <body style="background-color: rgb(136, 135, 168);">
+        <h2>Tables</h2>
+        <p>Each table is defined by a td, which stands for table data.
+            Everything between td is a content of a table cell.
+            A table cell can contain all sorts of elements including text, images, lists, links or 
+            even other tables.<br>To make some of the cells header cells use th instead of td.th stands for table header. 
+            By use of the border collapse, the two lined borders become one if you set it to border collapse<br>
+            By use of border radius and setting the number of pixels, you get rounded borders.<br>
+            In border radius, to skip the border around the overall table, leave out the table in the css selector.
+        </p>
+        <table style="width:100%">
+            <caption>Header table</caption>
+            <tr>
+                <th style="width:70%">Person 1</th>
+                <th>Person 2</th>
+                <th>Person 3</th>
+            </tr>
+            <tr>
+                <td>Emil</td>
+                <td>Tobias</td>
+                <td>Linux</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>45</td>
+                <td>56</td>
+            </tr>
+        </table>
+        <p>This is another table showing how to have one header for two columns</p>
+        <table style="width:100%">
+            <caption style="color: crimson;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Table 2</caption>
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Age</th>
+            </tr>
+            <tr> <td>Jill</td>
+            <td>Smith</td>
+            <td>45</td></tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>56</td>
+            </tr>
+
+
+           
+        </table>
+        
+
+
+    </body>
+</html>

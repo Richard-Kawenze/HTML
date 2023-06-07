@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo">JavaScript can change HTML content.</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+<p id="right">Javascript can change the style of an HTML element</p>
+<button type="button" onclick="document.getElementById('right').style.fontSize='35px'">Click Me!</button>
+<p id="show">Javascript can hide html elements</p>
+<button type="button" onclick="document.getElementById('show').style.display='none'">Click here</button>
+<button type="button" onclick="document.getElementById('show').style.display='block'">Click me</button>
+<script>
+    document.write(5+6);
+</script>
+<script>window.alert(5+6);</script>
+<button onclick="window.print()">Print this page</button>
+<p id="car"></p>
+<script>
+    const cars=["saab","Hotrod","Portia"];
+    cars[0]="Toyota Wish";
+    cars.push("Audi");
+    document.getElementById('car').innerHTML=cars;
+</script>
+<p id="sum"></p>
+<script>
+    let a=3;
+    let x=(100+50) * a;
+    document.getElementById("sum").innerHTML=x;
+</script>
+<p>The following operators are used for string comparison</p>
+<p id="compare"></p>
+<script>
+    let text1="a";
+    let text2="b";
+    let result=text1<text2;
+    document.getElementById("compare").innerHTML="Is a less than b? "+result;
+</script>
+<p id="objecto"></p>
+<script>
+    const person=
+    {
+        firstname:"John",
+        lastname:"Doe",
+        age:50
+
+    };
+    document.getElementById("objecto").innerHTML=person.firstname + " is " + person.age + " years old. "
+</script>
+
+</body>
+</html>
