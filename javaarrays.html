@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>
+            Javascript Arrays and their Methods
+        </h2>
+        <p>The length property returns the length of the array</p>
+        <p id="demo"></p>
+        <script>
+            const fruits=["Papai","Banana","Watermelon", "Avocado","Mango"];
+            let size=fruits.length;
+            document.getElementById("demo").innerHTML=size;
+        </script>
+        <p>To convert array elements to a string, use the toString() method.</p>
+        <p>The array above is as follows<br></p>
+        <p id="tostring"></p>
+        <script>
+            let tostring =fruits.toString();
+            document.getElementById("tostring").innerHTML=tostring;
+
+        </script>
+        <p>The join method also converts an array into a string only that it you 
+            specify the separator.
+        </p>
+        <p id="join"></p>
+        <script>
+            document.getElementById("join").innerHTML=fruits.join(" * ");
+        </script>
+        <p>To delete or remove an element from the end of the array, use the pop()method
+            This method returns the value or element that was popped out
+        </p>
+        <p id="pop"></p>
+        const cars=["Hotrod","Portia",Mundaneo];
+        <script>
+        let poped=cars.pop();
+            document.getElementById("pop").innerHTML=poped;
+
+        </script>
+        <p>To add an element into an array we use the method push</p>
+        <p id="pushed"></p>
+        <script>
+            cars.push("Apple");
+            document.getElementById("pushed").innerHTML=cars;
+        </script>
+        
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
