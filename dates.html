@@ -1,0 +1,21 @@
+!<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Dates</h2>
+        <p>To set the current date on another year, use the setFullYear() method
+            <br>To set the month use the setMonth() method.YOu can also set the days,hours,minutes and seconds in the same manner.
+        </p>
+        <p id="demo"></p>
+        <p id="mon"></p>
+        <script>
+            const datee=new Date();
+            datee.setFullYear(2012,0,23);
+            document.getElementById("demo").innerHTML=datee;
+            datee.setMonth(11);
+            document.getElementById("mon").innerHTML=datee;
+
+        </script>
+        <p>Comparison of dates is done using the greater than or less than symbols </p>
+        
+    </body>
+</html>
