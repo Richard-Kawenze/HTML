@@ -1,0 +1,39 @@
+.bgcolor
+{
+    background-color: blueviolet;
+    opacity: 1;
+    border-top: dashed;
+    border-color: crimson;
+    border-radius: 40px;
+    margin-top: auto;
+    padding: 30px;
+    width: 300px;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    background-color: transparent;
+    color: blueviolet;
+    opacity: 1;
+    max-width: 400px;
+    text-shadow: 0px 0px 5px blue, 0 0 5px red;
+    font-size: 2vw;
+    text-align: center;
+}
+h2:hover
+{
+    text-shadow: 0 0 7px blue,0 0 7px blue;
+    font-size: 2.1vw;
+    transition-duration: 1s;
+
+}
+body
+{
+    background-image: url("amongus.jpeg");
+    background-attachment: scroll;
+}
