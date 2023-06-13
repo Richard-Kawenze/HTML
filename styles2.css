@@ -35,5 +35,16 @@ h2:hover
 body
 {
     background-image: url("amongus.jpeg");
+    background-size: cover;
     background-attachment: scroll;
+}
+
+.hovereffect:hover
+{
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background: red;
+
 }
