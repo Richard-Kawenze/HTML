@@ -48,3 +48,33 @@ body
     background: red;
 
 }
+
+a
+{
+    background: red;
+    color: blue;
+}
+
+a:hover
+{
+    background: blue;
+    color: aliceblue;
+    transition: 1s;
+}
+
+ul
+{
+    list-style-type: georgian;
+    list-style-position: outside;
+}
+ol
+{
+    list-style-type: lower-alpha;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+th
+{
+    background-color: aqua;
+    background: red;
+}
