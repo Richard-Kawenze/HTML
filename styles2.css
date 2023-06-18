@@ -39,15 +39,6 @@ body
     background-attachment: scroll;
 }
 
-.hovereffect:hover
-{
-    top: 0;
-    left: 0;
-    width: 100px;
-    height: 100px;
-    background: red;
-
-}
 
 a
 {
@@ -77,4 +68,49 @@ th
 {
     background-color: aqua;
     background: red;
+    border: 1px solid blue;
+    padding: 2px;
+    height: 50px;
+}
+td
+{
+    border: 2px solid yellow;
+    background-color: transparent;
+    text-align: center;
+    vertical-align: top;
+    padding: 4px;
+    color: blue;
+}
+
+
+table
+{
+    border-radius: 4px;
+    border: 6px solid;
+    border-color: red;
+    width: 50%;
+    border-collapse: collapse;
+    column-width: 20px;
+    padding: 5px;
+
+
+
+}
+tr:nth-child(even)
+{
+    background-color: aliceblue;
+}
+tr:hover
+{
+    background-color: orange;
+}
+
+.divisionclass
+{
+    max-width: 600px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+
 }
