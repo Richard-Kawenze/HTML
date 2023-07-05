@@ -57,6 +57,11 @@ ul
 {
     list-style-position: outside;
     list-style-type: none;
+    background: transparent;
+}
+li
+{
+    background-color: transparent;
 }
 ol
 {
@@ -207,6 +212,29 @@ span.c
 div.hovern:hover p.hoverman
 {
 display: block;
+}
+
+ul.navlist
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+li a
+{
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+li.horizon
+{
+    display: inline;
 }
 
 
