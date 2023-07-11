@@ -1,0 +1,47 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    background-image: url(jupiterhome.jpg);
+}
+
+.header
+{
+    background-color: rgba(128, 0, 128, 0.534);
+    padding: 1px;
+    text-align: center;
+}
+
+.topnav
+{
+    overflow: hidden;
+    background-color: rgba(238, 130, 238, 0.212);
+    position: sticky;
+}
+
+.topnav a
+{
+    float: right;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.topnav a:hover
+{
+    background-color: violet;
+    color: aqua;
+}
+
+.logo
+{
+    display: block;
+    float: left;
+
+    
+}

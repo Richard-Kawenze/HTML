@@ -227,6 +227,11 @@ input[type=text], select
 
 
 }
+input[type=text]:focus
+{
+    background-color: aliceblue;
+    color: black;
+}
 input[type=submit]
 {
     width: 100%;
