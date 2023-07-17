@@ -8,40 +8,157 @@ body
     background-image: url(jupiterhome.jpg);
 }
 
-.header
-{
-    background-color: rgba(128, 0, 128, 0.534);
-    padding: 1px;
-    text-align: center;
-}
-
-.topnav
-{
-    overflow: hidden;
-    background-color: rgba(238, 130, 238, 0.212);
-    position: sticky;
-}
-
-.topnav a
-{
-    float: right;
-    padding: 15px 20px;
-    text-decoration: none;
-    color: black;
-
-
-}
-
-.topnav a:hover
-{
-    background-color: violet;
-    color: aqua;
-}
-
 .logo
 {
+    list-style-type: none;
+    padding: 12px 0px;
     display: block;
+    position: relative;
     float: left;
-
-    
 }
+.logo a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.logo a:hover
+{
+
+}
+.ul1
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(238, 130, 238, 0.288);
+}
+
+.li1
+{
+    float: right;
+
+}
+.dropdown1,.dropdown2
+{
+    float: right;
+}
+
+.li1 a, .dropdown1 a, .dropbtn1, .dropdown2 a,.dropbtn2
+{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.li1 a:hover, .dropbtn1:hover, .dropbtn2:hover
+{
+    color: aqua;
+    text-shadow: 0 0 15px aqua;
+}
+
+li.dropdown1
+{
+    display: inline-block;
+}
+li.dropdown2
+{
+    display: inline-block;
+}
+
+.dropdowncontent1
+{
+    display: none;
+    position: absolute;
+    background: transparent;
+    max-width: 190px;
+    box-shadow: 0 0 15px violet;
+    z-index: 1;
+    min-width: 160px;
+}
+.dropdowncontent2
+{
+    display: none;
+    position: absolute;
+    background: transparent;
+    max-width: 190px;
+    box-shadow: 0 0 15px violet;
+    z-index: 1;
+    min-width: 160px;
+}
+
+.dropdowncontent1 a
+{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdowncontent2 a
+{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdowncontent1 a:hover
+{
+    background-color: rgba(238, 130, 238, 0.425);
+    color: aqua;
+    text-shadow: 0 0 15px aqua;
+
+}
+.dropdowncontent2 a:hover
+{
+    background-color: rgba(238, 130, 238, 0.425);
+    color: aqua;
+    text-shadow: 0 0 15px aqua;
+
+}
+
+
+.dropdown1:hover .dropdowncontent1
+{
+    display: block;
+}
+
+.dropdown2:hover .dropdowncontent2
+{
+    display: block;
+}
+
+.homecontent
+{
+    background-color: transparent;
+    max-width: 500px;
+   
+}
+
+.p1
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: italic;
+}
+.p2
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+
+}
+
+
+
+
+
